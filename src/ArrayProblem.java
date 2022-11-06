@@ -139,6 +139,7 @@ public class ArrayProblem {
     
                 changeArray(position, value, nums);
             }
-        }    
+        }   
+        userInput.close(); 
     }
 }
